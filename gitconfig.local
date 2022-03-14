@@ -1,7 +1,11 @@
 [alias]
   l = log --pretty=colored
+[core]
+  editor = rubymine --wait
 [pretty]
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
+[status]
+  short = true
 [user]
   name = David Young
   email = davie668@gmail.com
