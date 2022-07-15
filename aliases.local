@@ -1,0 +1,2 @@
+alias brew_update="brew update && brew outdated"
+alias sft_upgrade="brew upgrade && asdf plugin update ruby && asdf plugin update nodejs"
