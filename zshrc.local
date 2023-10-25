@@ -3,4 +3,8 @@ if [ -z "$SSH_AUTH_SOCK" ] ; then
   ssh-add
 fi
 
+export PATH="$HOME/.bin:$PATH"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 source $(brew --prefix asdf)/libexec/asdf.sh

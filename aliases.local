@@ -1,2 +1,8 @@
 alias brew_update="brew update && brew outdated --greedy --verbose"
-alias sft_upgrade="brew upgrade --greedy && asdf plugin update ruby && asdf plugin update nodejs"
+alias sft_upgrade="sudo -v && brew upgrade --greedy && asdf plugin update ruby && asdf plugin update nodejs"
+alias docked='docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 ghcr.io/rails/cli'
+
+alias k9s_dev="kubectx core-dev-aks && k9s"
+alias k9s_qa="kubectx core-qa-aks && k9s"
+alias k9s_demo="kubectx core-demo-aks && k9s"
+alias k9s_production="kubectx core-prd-aks && k9s"
