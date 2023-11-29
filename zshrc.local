@@ -8,3 +8,7 @@ export PATH="$HOME/.bin:$PATH"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 source $(brew --prefix asdf)/libexec/asdf.sh
+
+path+=('/Applications/Visual Studio Code.app/Contents/Resources/app/bin')
+
+path+=('~/dotfiles-local/bin/')

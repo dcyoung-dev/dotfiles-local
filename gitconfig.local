@@ -6,6 +6,8 @@
   colored = format:%Cred%h%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset
 [status]
   short = true
+[commit]
+	gpgsign = true
 [user]
   name = David Young
   email = davie668@gmail.com
