@@ -4,8 +4,9 @@
 /.idea/modules.xml
 /.idea/supercycle.iml
 /.idea/vcs.xml
-/**/.idea/.gitignore
-/**/.idea/misc.xml
-/**/.idea/modules.xml
-/**/.idea/vcs.xml
-/**/.idea/web.iml
+**/.idea/.gitignore
+**/.idea/misc.xml
+**/.idea/modules.xml
+**/.idea/vcs.xml
+**/.idea/web.iml
+**/.idea

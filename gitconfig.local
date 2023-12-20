@@ -8,6 +8,8 @@
   short = true
 [commit]
 	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
 [user]
   name = David Young
   email = davie668@gmail.com
