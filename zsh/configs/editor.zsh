@@ -1,2 +1,2 @@
-export VISUAL=rubymine
-export EDITOR="$VISUAL --wait"
+export VISUAL="rubymine --wait"
+export EDITOR="$VISUAL"
