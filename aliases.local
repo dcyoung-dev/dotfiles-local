@@ -6,3 +6,6 @@ alias k9s_dev="kubectx core-dev-aks && k9s"
 alias k9s_qa="kubectx core-qa-aks && k9s"
 alias k9s_demo="kubectx core-demo-aks && k9s"
 alias k9s_production="kubectx core-prd-aks && k9s"
+
+alias pg_switch_14="brew services stop postgresql@16 && brew services start postgresql@14"
+alias pg_switch_16="brew services stop postgresql@14 && brew services start postgresql@16"
